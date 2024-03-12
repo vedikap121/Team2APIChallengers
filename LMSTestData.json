@@ -1,0 +1,226 @@
+[
+    {
+        "requests": [
+            {
+                "name": "Add New Program",
+                "data": [
+                    {
+                        "PrgDesc1":"Basic Course",
+                        "programNameP":"Mar24-APIChallengers-SDET-146",
+                        "Status": "Inactive"
+                    },
+                    {
+                      "PrgDesc2":"Advanced Course",
+                      "programNameP":"Mar24-APIChallengers-DA-146",
+                      "Status": "Active"
+                  }
+                      
+                ]
+            
+            },
+            {
+                "name": "Create New Batch",
+                "data": [
+                    {
+                        "batchDesc":"SDET Batch",
+                        "batchName": "Mar24-APIChallengers-SDET-SDETBatch131-146",
+                        "batchNoOfClasses": 10,
+                        "batchStatus": "Inactive"
+                     
+                    },
+                    {
+                        "batchDesc":"DA Batch",
+                        "batchName": "Mar24-APIChallengers-DA-DABatch131-146",
+                        "batchNoOfClasses": 20,
+                        "batchStatus": "Active"
+                     
+                    }
+                   
+                ]
+            },
+            
+            {
+                "name": "Create Users with Admin Staff Student Roles-Data Driven",
+                "data": [
+                    {
+                        "userComments": "User with Admin Role",
+                        "userEduPg": "Phd",
+                        "userEduUg": "BE",
+                        "userFirstName": "APIChallengersAdmin",
+                        "userId": "",
+                        "userLastName": "First",
+                        "userLinkedinUrl": "https://www.linkedin.com/in/APIChallengers1/",
+                        "userLocation": "New York",
+                        "userLogin": {
+                          "loginStatus": "",
+                          "password": "1234",
+                          "roleIds": [
+                            "R01"
+                          ],
+                          "status": "Active"
+                        },
+                        "userMiddleName": "Dee",
+                        "userRoleMaps": [
+                          {
+                            "roleId": "R01",
+                            "userRoleStatus": "Active"
+                          }
+                        ],
+                        "userTimeZone": "EST",
+                        "userVisaStatus": "H4-EAD"
+                   },
+                   {
+                    "userComments": "User with Staff Role",
+                    "userEduPg": "MCA",
+                    "userEduUg": "BCA",
+                    "userFirstName": "APIChallengersStaff",
+                    "userId": "",
+                    "userLastName": "Second",
+                    "userLinkedinUrl": "https://www.linkedin.com/in/APIChallengers2/",
+                    "userLocation": "India",
+                    "userLogin": {
+                      "loginStatus": "",
+                      "password": "1234",
+                      "roleIds": [
+                        "R02"
+                      ],
+                      "status": "Inactive"
+                    },
+                    "userMiddleName": "Dee",
+                    "userRoleMaps": [
+                      {
+                        "roleId": "R02",
+                        "userRoleStatus": "Inactive"
+                      }
+                    ],
+                    "userTimeZone": "IST",
+                    "userVisaStatus": "Indian-Citizen"
+               },
+               {
+                "userComments": "User with Student Role",
+                "userEduPg": "MS",
+                "userEduUg": "BS",
+                "userFirstName": "APIChallengersStudent",
+                "userId": "",
+                "userLastName": "Third",
+                "userLinkedinUrl": "https://www.linkedin.com/in/APIChallengersStudent/",
+                "userLocation": "CANADA",
+                "userLogin": {
+                  "loginStatus": "",
+                  "password": "1234",
+                  "roleIds": [
+                    "R03"
+                  ],
+                  "status": "Active"
+                },
+                "userMiddleName": "Dee",
+                "userRoleMaps": [
+                  {
+                    "roleId": "R03",
+                    "userRoleStatus": "Active"
+                  }
+                ],
+                "userTimeZone": "CST",
+                "userVisaStatus": "GC-EAD"
+           }
+                      
+                ]
+            },
+            {
+                "name": "Update User Information-Admin",
+                "data": [
+                    {
+                        "putUserComments": "Updated User Information",
+                        "putuserEduPg": "Computer Science",
+                        "putuserEduUg": "Biology",
+                        "putuserFirstName": "Updated",
+                        "putuserLastName": "APIChallengers",
+                        "putuserLinkedinUrl": "https://www.linkedin.com/in/APIChallengersUpdate/",
+                        "putuserLocation": "Texas",
+                        "putuserMiddleName": "Team",
+                        "putTimeZone": "MST",
+                        "putVisaStatus": "Not-Specified"
+                      }
+                   
+                ]
+            },
+            {
+                "name": "UPDATE User RoleId-User1",
+                "data": [
+                    {
+                        "userRoleList": [
+                          "R02"
+                        ]
+                    }
+                   
+                ]
+            },
+            {
+                "name": "UPDATE User RoleId-User2",
+                "data": [
+                    {
+                        "userRoleList": [
+                          "R03"
+                        ]
+                    }
+                   
+                ]
+            },
+            {
+                "name": "UPDATE User RoleId-User3",
+                "data": [
+                    {
+                        "userRoleList": [
+                          "R01"
+                        ]
+                    }
+                   
+                ]
+            },
+            {
+                "name": "Assign or UPDATE User Role Program Batch status",
+                "data": [
+                    {
+                       
+                        "Role3": "R03",
+                        "userRoleProgramBatches": [
+                          {
+                            
+                            "userRoleProgramBatchStatus": "Active"
+                          }
+                        ]
+                    },
+                    {
+                       
+                        "Role3": "R03",
+                        "userRoleProgramBatches": [
+                          {
+                            
+                            "userRoleProgramBatchStatus": "Inactive"
+                          }
+                        ]
+                    },
+                    {
+                       
+                        "Role3": "R03",
+                        "userRoleProgramBatches": [
+                          {
+                            
+                            "userRoleProgramBatchStatus": "Active"
+                          }
+                        ]
+                    }
+                   
+                ]
+            }
+
+
+
+           
+        
+
+        ]
+    }
+]
+
+
